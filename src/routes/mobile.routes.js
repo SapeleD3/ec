@@ -11,7 +11,7 @@ import photo5 from '../assets/5.jpeg';
 import { HomeOutlined, FileImageOutlined } from '@ant-design/icons';
 
 export default function MAPP() {
-  const [current, setCurrent] = useState('gallery');
+  const [current, setCurrent] = useState('home');
   const [bg, setBg] = useState('grey');
 
   const images = [photo1, photo2, photo3, photo4, photo5];
@@ -23,7 +23,7 @@ export default function MAPP() {
   useEffect(() => {
     setTimeout(() => {
       setBg('white');
-    }, 7500);
+    }, 8500);
   }, []);
 
   const changeBg = () => {

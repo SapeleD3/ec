@@ -7,7 +7,7 @@ export default function TDAPP() {
       <img
         style={{
           position: 'fixed',
-          top: '35%',
+          top: '45%',
           left: '50%',
           width: '50%',
           marginTop: 120,
